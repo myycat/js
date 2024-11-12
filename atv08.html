@@ -1,0 +1,12 @@
+<!--CALCULAR O VALOR DA CONTA POR CLIENTE DE UMA PIZZARIA (JavaScript) 12/11/2024-->
+<meta charset="UTF-8">
+<script>
+    var valorPizza = Number(prompt("Digite o valor da pizza:"));
+    var quantClientes = Number(prompt("Quant. Clientes: "));
+    var valorCliente = valorPizza /  quantClientes;
+
+    document.write("<h1>*************SISTEMA DE PIZZARIA*****************</h1>");
+    document.write("<br>Preço da Pizza: " + valorPizza.toFixed(2));
+    document.write("<br>Quant. Clientes: " + quantClientes);
+    document.write("<br>Preço por cliente: R$ " + valorCliente.toFixed(2));
+</script>
