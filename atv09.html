@@ -1,0 +1,10 @@
+<!--SISTEMA DE LOJA QUE DA DESCONTO COM PAGAMENTO A VISTA OU PARCELA-->
+<meta charset="UTF-8">
+<script>
+    var valorVenda = Number(prompt("Digite o valor da venda: "));
+    var sobra = valorVenda*0.10;
+    var desconto = valorVenda - sobra;
+    var parcelamento = valorVenda / 3;
+    document.write("**************SISTEMA DE LOJA**************")
+    document.write("<br> Preço: R$" + valorVenda.toFixed(2) + "<br> À vista: R$ " + desconto.toFixed(2) + "<br> Ou 3x de R$ " + parcelamento.toFixed(2));
+</script>
