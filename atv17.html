@@ -1,0 +1,23 @@
+<!--CRIANDO UMA FUNÇÃO MATH.POW(base, exp) Retorna a base elevada ao expoente-->
+<meta charset="UTF-8">
+
+<button id="botao" onclick="minhaFuncao()">Chamar função</button>
+
+<!--EXIBE A INFORMAÇÃO DO RESULTADO-->
+<p id="resultado">Resultado</p>
+
+
+
+<script>
+    
+
+    var base = Number(prompt ("Digite um número inteiro:"));
+    var exp = Number(prompt ("Digite um número de potência"));
+
+    
+    //FUNÇÃO INSERIR A INFORMAÇÃO NO PARAGRAFO DO RESULTADO
+    function minhaFuncao(){
+        document.getElementById("resultado").innerHTML = Math.pow(base,exp);
+    }
+
+</script>
